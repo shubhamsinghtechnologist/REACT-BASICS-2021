@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en-IN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+    <meta name="keywords" content="React JS, React JS using CDN" />
+    <meta name="description" content="React JS using CDN" />
+    <meta name="author" content="Shubham Singh" />
+    <title>React JS</title>
+    <script
+      crossorigin
+      src="https://unpkg.com/react@17/umd/react.production.min.js"
+    ></script>
+    <script
+      crossorigin
+      src="https://unpkg.com/react-dom@17/umd/react-dom.production.min.js"
+    ></script>
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+  </head>
+  <body>
+    <h1 style="text-align: center; color: green">React JS using CDN</h1>
+    <div id="app"></div>
+
+    <!-- React Component Code -->
+    <!-- <script type="text/babel">
+      class App extends React.Component {
+        render() {
+          return <div>Hello React - using CDN</div>;
+          //   return /*#__PURE__*/ React.createElement("div", null, "Hello React");
+        }
+      }
+      ReactDOM.render(<App />, document.getElementById("app"));
+    </script> -->
+
+    <!-- React Component in External JS file -->
+    <script src="App.js" type="text/babel"></script>
+  </body>
+</html>
